@@ -37,6 +37,10 @@ This sketch is designed to allow for an `Olimex ESP32-PoE` board to be used as a
 1. Open the Home app on your iOS device and add the accessory using the pairing code.
 1. Confirm that accessory is responding as expected.
 
+> __Note:__
+> When compiling the sketch, ensure you set the partition scheme to `Minimal SPIFFS`.
+> This is required to ensure the sketch has enough space for the HomeSpan library and the NeoPixel library.
+
 ## Ethernet
 While the `Olimex ESP32-PoE` board is capable of using Ethernet, this sketch does not support it directly.
 It is possible to connect the board via Ethernet, however there are issues in maintaining connection within the HomeSpan library.
