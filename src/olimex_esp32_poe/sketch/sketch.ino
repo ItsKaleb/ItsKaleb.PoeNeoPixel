@@ -29,6 +29,7 @@
 // #include <ETH.h>
 #include "HomeSpan.h"
 
+// #define DEBUG 1
 #define NEOPIXEL_PIN 4
 #define NEOPIXEL_NUMPIXELS 7
 #define NEOPIXEL_TYPE "GRBW" // "RGBW" or "GRBW" (depending on the type of NeoPixel you are using)
